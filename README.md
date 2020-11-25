@@ -1,34 +1,45 @@
 [<img width="134" src="https://vk.com/images/apps/mini_apps/vk_mini_apps_logo.svg">](https://vk.com/services)
 
-# Create VK Mini App [![npm][npm]][npm-url] [![deps][deps]][deps-url]
+# vk mini app template
+🏗️ Template for comfortable development of VK Mini Apps using Typescript, Redux, React Router and Styled Components (in progress)
 
-## How to install
+## tech stack
+- react 16.9
+- react-redux 7.2
+- redux-thunk 2.3
+- react-router 5.2
+- styled-components 5.2
 
-### Create VK Mini App with gh-pages deploy
+## how to install
 
-`npx @vkontakte/create-vk-mini-app <app-directory-name>`
+### clone this repository
 
-### Create VK Mini App with Zeit deploy
+```
+# via http
+$ git clone https://github.com/on3dd/vk-mini-app-template.git
+```
 
-Firstly, you have to create Zeit account and connect it with your GitHub profile — https://zeit.co/
+or
 
-`npx @vkontakte/create-vk-mini-app <app-directory-name> --zeit`
+```
+# via ssh
+$ git clone git@github.com:on3dd/vk-mini-app-template.git
+```
 
-### Create VK Mini App with Surge deploy
+### enter the project directory 
 
-Firstly, you have to create Surge account and Surge-domain — https://surge.sh/
+```
+$ cd vk-mini-app-template
+```
 
-`npx @vkontakte/create-vk-mini-app <app-directory-name> --surge <surge-domain>`
+### install dependencies
+```
+npm install
+```
 
-## How to start work with app
+## how to start work with app
 
-Go to created folder and run:
+go to created folder and run:
 `yarn start` || `npm start` — this will start dev server with hot reload on `localhost:10888`.
 
 `yarn run build` || `npm run build` — this will build production bundle, with tree-shaking, uglify and all this modern fancy stuff
-
-[npm]: https://img.shields.io/npm/v/@vkontakte/create-vk-mini-app.svg
-[npm-url]: https://npmjs.com/package/@vkontakte/create-vk-mini-app
-
-[deps]: https://img.shields.io/david/vkcom/create-vk-mini-app.svg
-[deps-url]: https://david-dm.org/vkcom/create-vk-mini-app
