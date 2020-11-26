@@ -1,6 +1,6 @@
 [<img width="134" src="https://vk.com/images/apps/mini_apps/vk_mini_apps_logo.svg">](https://vk.com/services)
 
-# vk mini app template
+# [vk mini app template](https://github.com/on3dd/vk-mini-app-template)
 🏗️ Template for comfortable development of VK Mini Apps using Typescript, Redux, React Router and Styled Components (in progress)
 
 ## tech stack
